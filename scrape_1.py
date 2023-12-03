@@ -34,7 +34,6 @@ print(f"Số lượt xem: {view_count}")
 print(f"Số lượt thích: {like_count}")
 print(f"Số comment: {comment_count}")
 
-
 title = title.encode('utf-8').decode('utf-8')
 published_time = published_time.encode('utf-8').decode('utf-8')
 
