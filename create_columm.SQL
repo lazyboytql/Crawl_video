@@ -1,0 +1,6 @@
+ALTER TABLE ytb
+ADD COLUMN title VARCHAR(255),
+ADD COLUMN published_time DATE,
+ADD COLUMN view_count INTEGER,
+ADD COLUMN like_count INTEGER,
+ADD COLUMN comment_count INTEGER;
